@@ -1,0 +1,25 @@
+{
+  "name": "ereminmdev/yii2-noty",
+  "description": "Alternative confirmation messages for Yii framework.",
+  "keywords": ["yii2","alert","noty"],
+  "homepage": "https://bitbucket.org/ereminmdev/yii2-noty",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Eremin",
+      "email": "ereminmdev@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "yiisoft/yii2": "~2.0.1",
+    "needim/noty": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ereminmdev\\yii2\\noty\\": ""
+    }
+  }
+}
