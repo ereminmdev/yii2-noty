@@ -38,7 +38,7 @@ class NotyWidget extends Widget
     public $clientOptions = [];
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function run()
     {
